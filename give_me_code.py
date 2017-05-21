@@ -12,7 +12,7 @@ def hello_world(code):
 
 def run():
     if len(sys.argv) < 2:
-        print("Use port to specify server port: %s port" % sys.argv[0])
+        print(("Use port to specify server port: %s port" % sys.argv[0]))
         port = 8333
     else:
         port = int(sys.argv[1])
